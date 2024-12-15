@@ -1,0 +1,13 @@
+.button-container {
+  width: 100%;
+  font-size: 18px;
+  background-color: #57a2e9;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 8px;
+  border-style: outset;
+  border-color: #0b5192;
+  height: 30px;
+  font-family: "Avenir";
+  cursor: pointer;
+}
