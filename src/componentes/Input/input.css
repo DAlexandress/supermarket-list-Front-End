@@ -6,7 +6,7 @@
   width: 352px;
   height: 48px;
   border-radius: 8px;
-  border-color: #57a2e9;
+  border-color: #167004;
   border-width: 2px;
   border-style: solid;
 }
@@ -23,6 +23,7 @@
   border: 0px transparent;
   margin-left: 6px;
   font-size: 16px;
+  background-color: #e4f7cd;
 }
 .input:focus {
   outline: none;

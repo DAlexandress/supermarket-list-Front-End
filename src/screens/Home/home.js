@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router";
 import "./home.css";
 import { Button, Input } from "../../componentes";
+import { SAVE_USERNAME_PATH } from "../../services/constants";
 
 export const HomeScreen = () => {
   const navigate = useNavigate();
@@ -12,7 +13,7 @@ export const HomeScreen = () => {
       alert("Usuário Precisa ter mais que 3 caracteres!");
       return;
     }
-    localStorage.setItem("@supermarket-lis", username);
+    localStorage.setItem(SAVE_USERNAME_PATH, username);
     navigate("/List");
   };
 
@@ -21,14 +22,15 @@ export const HomeScreen = () => {
       <div className="home-screen-content-container">
         <img
           className="shopping-bag-image"
-          src="/image/shopping-bag.svg"
+          src="/image/shopping-bag.png"
           alt="shopping-bag"
         />
         <h1 className="home-screen-title">
           Sua lista de supermercado mais fácil do que nunca
         </h1>
         <h3 className="home-screen-subtitle">
-          Ajudamos você a organizar sua lista de compras de forma descomplicada.
+          Ajudamos você a organizar sua <br /> lista de compras de forma
+          descomplicada.
         </h3>
 
         <p>Digite abaixo seu usuário para ter acesso a sua lista de compras</p>
