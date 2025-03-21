@@ -4,12 +4,12 @@
   justify-content: center;
   width: 60%;
   font-size: 18px;
-  background: radial-gradient(circle, green, rgb(11, 58, 11));
   color: #ffffff;
   font-weight: bold;
   border-radius: 8px;
-  border-style: outset;
-  border-color: #0b5192;
+  background: rgba(3, 104, 28, 0.7);
+  box-shadow: 0 4px 10px rgba(185, 235, 207, 0.9);
+  border-style: none;
   height: 30px;
   font-family: "Avenir";
   cursor: pointer;

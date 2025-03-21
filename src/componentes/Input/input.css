@@ -7,6 +7,7 @@
   height: 48px;
   border-radius: 8px;
   border-color: #167004;
+  background: rgb(218, 253, 223, 0.8);
   border-width: 2px;
   border-style: solid;
 }
@@ -17,13 +18,15 @@
   padding-left: 6px;
   padding-top: 6px;
   padding-bottom: 4px;
+  color: #030500;
 }
 
 .input {
   border: 0px transparent;
   margin-left: 6px;
   font-size: 16px;
-  background-color: #e4f7cd;
+  color: #030500;
+  background: rgba(228, 247, 205, 0);
 }
 .input:focus {
   outline: none;

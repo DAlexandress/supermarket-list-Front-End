@@ -3,7 +3,6 @@ import { useNavigate } from "react-router";
 import "./home.css";
 import { Button, Input } from "../../componentes";
 import { SAVE_USERNAME_PATH } from "../../services/constants";
-
 export const HomeScreen = () => {
   const navigate = useNavigate();
   const [username, setUsername] = useState("");
