@@ -1,0 +1,27 @@
+.list-render-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70vw;
+  height: 60vh;
+  overflow-y: auto;
+  -webkit-appearance: none;
+  appearance: none;
+  overflow-x: hidden;
+  /* Firefox */
+  scrollbar-width: thin;
+  scrollbar-color: white transparent;
+}
+/* Chrome, Edge, Safari */
+.list-render-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.list-render-container::-webkit-scrollbar-thumb {
+  background-color: white;
+  border: 2px solid transparent;
+}
+
+.list-render-container::-webkit-scrollbar-button {
+  display: none;
+}

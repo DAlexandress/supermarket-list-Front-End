@@ -1,7 +1,48 @@
 .list-card-container {
-  width: 934px;
-  height: 58px;
-  background-color: #7785db;
-  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 56px;
+  min-height: 56px;
+  background-color: #e4f5e8;
+  padding: 0px 4px;
+  border-radius: 18px;
   margin-bottom: 18px;
+  color: rgb(8, 66, 8);
+}
+.list-card-content {
+  display: flex;
+  align-items: center;
+}
+
+.checked-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  cursor: pointer;
+  margin-right: 6px;
+}
+.list-card-text-container {
+  display: flex;
+  flex-direction: column;
+}
+.card-title {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+.card-subtitle {
+  font-size: 12px;
+}
+
+.arrow-icon {
+  width: 35px;
+  height: auto;
+  object-fit: contain;
+  cursor: pointer;
 }

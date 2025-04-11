@@ -16,7 +16,7 @@
   justify-content: center;
   width: 452px;
   height: 552px;
-  border-radius: 150px;
+  border-radius: 30px;
   background: rgba(228, 247, 205, 0.2);
   box-shadow: 0 4px 10px rgba(90, 214, 146, 0.9);
   backdrop-filter: blur(2px);

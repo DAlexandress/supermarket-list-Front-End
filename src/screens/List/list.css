@@ -14,19 +14,48 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  width: 1028px;
-  height: 682px;
+  width: 70vw;
+  height: 84vh;
   border-radius: 30px;
   background: rgba(228, 247, 205, 0.9);
   box-shadow: 0 4px 20px rgb(55, 243, 139);
   backdrop-filter: blur(2px);
-  padding: 16px;
+  padding: 24px;
+  overflow: hidden;
 }
 .list-screen-header {
   display: flex;
+  width: 100%;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
 }
+.list-title-container {
+  display: flex;
+  flex-direction: row;
+}
+.list-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: #074d02;
+  font-weight: bold;
+  border-radius: 8px;
+  background: rgb(237, 253, 240);
+  box-shadow: 0 4px 10px rgba(3, 26, 13, 0.6);
+  border-style: none;
+  width: 86px;
+  height: 30px;
+  font-family: "Avenir";
+  cursor: pointer;
+}
+
+.list-screen-header-title {
+  font-size: 30px;
+  margin-left: 14px;
+}
+
 .logo-image {
   width: 72px;
   height: 72px;

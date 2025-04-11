@@ -11,6 +11,12 @@
 
 @font-face {
   font-family: "Avenir Next";
+  src: url(../public/font/AvenirLTStd-Medium.otf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Avenir Next";
   src: url(../public/font/AvenirNext-It.otf);
   font-style: italic;
 }
